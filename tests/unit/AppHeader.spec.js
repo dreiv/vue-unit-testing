@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 
 import AppHeader from '@/components/AppHeader.vue'
 
-describe('AppHeader.vue', () => {
+describe('AppHeader', () => {
   it('If the user is not logged in, do not show logout button', () => {
     const wrapper = mount(AppHeader)
 
